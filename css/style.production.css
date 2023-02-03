@@ -13,12 +13,6 @@ Primary Color: #013065;
 Secondary Color: #9B6600;
 */
 
-/* TODO: ask tutor why this did not work*/
-$primary-font-family: "Roboto", Arial;
-$primary-font-weight: 400;
-$secondary-font-weight: 700;
-
-
 *{
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -119,7 +113,7 @@ button:focus,
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 100%;
+    width: auto;
     height: auto;
     padding: 20px;
     border-bottom:1px solid grey;
