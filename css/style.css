@@ -23,12 +23,6 @@ Secondary Color: #9B6600;
     --secondary-font-weight: 700;
 }
 
-/* TODO: ask tutor why this did not work*/
-$primary-font-family: "Roboto", Arial;
-$primary-font-weight: 400;
-$secondary-font-weight: 700;
-
-
 *{
     box-sizing: border-box;
 }
