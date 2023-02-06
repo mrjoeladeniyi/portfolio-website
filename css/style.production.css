@@ -353,3 +353,8 @@ button:focus,
    max-width: 150%;
 
 }
+
+.contact-details{
+   margin-left: 40px;
+   text-align: justify;
+}
