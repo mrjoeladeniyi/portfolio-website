@@ -6,6 +6,13 @@
 */
 
 /*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 2 version
+*/
+
+/*
 Colors used
 
 Text Color: #ECE9E1;
@@ -28,7 +35,7 @@ body{
     font-family: "Roboto", Arial;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.0;
 }
 
 h1{
@@ -100,11 +107,20 @@ button:focus,
 .profile{
     max-width: 700px;
     margin: 0 auto;
+    margin-top: 10%;
 }
 
+.profile h1{
+    font-size: 50px;
+    color: #1C3879;
+}
+
+.profile h2{
+    color: #765d37;
+}
 .profile__portrait{
     float: left;
-    margin-right: 40px;
+    margin-right: 50px;
     border-radius: 50%;
     width: 250px;
 }
@@ -223,6 +239,15 @@ button:focus,
         font-size: 22px;
     }
 }
+
+@media all and (max-width:673px){
+    .profile__portrait{
+        float:none;
+        margin: 0 auto;
+    }
+}
+
+
 
 @-webkit-keyframes color-change {
   0% {
@@ -350,7 +375,10 @@ button:focus,
 }
 .about-me-content_image{
    min-width: auto;
-   max-width: 150%;
+   max-width: 100%;
+   height: -webkit-fit-content;
+   height: -moz-fit-content;
+   height: fit-content;
 
 }
 
